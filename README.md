@@ -92,5 +92,5 @@ After 330 epoches, model could classify manual digit(in manual_digit folder) up 
 ![illusion_lose](illusion_lose.PNG)
 
 
-Thank @mnielsen for [teaching script](http://neuralnetworksanddeeplearning.com/) <br>
+Thank [@mnielsen](https://github.com/mnielsen) for [teaching script](http://neuralnetworksanddeeplearning.com/) <br>
 תודה לאל keep us all the way
