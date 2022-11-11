@@ -89,7 +89,7 @@ A=nc.nn([28*28,30,10])
 A.THG(l, 20, 1,330)
 ```
 After 330 epoches, model could classify manual digit(in manual_digit folder) up to 99.9 percent.
-![illusion_lose](illusion_lose.PNG
+![illusion_lose](illusion_lose.PNG)
 
 
 Thank @mnielsen for [teaching script](http://neuralnetworksanddeeplearning.com/) 
