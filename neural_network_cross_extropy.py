@@ -145,6 +145,10 @@ class nn:
         self.weight=np.load(weight_array_name, allow_pickle=True )
         #np.load(baise_array_name, self.baise)
         self.baise=np.load(baise_array_name, allow_pickle=True)
+        a=[b.shape[0] for b in self.baise]
+        a=[self.weight[0].shape[1]]+a
+        self.layers=a
+
 
 
 
