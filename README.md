@@ -83,10 +83,12 @@ $$
 #### using
 ```Python
 import read_train_set as rs
-import neural_network_cross_extropy as nc
+#import neural_network_cross_extropy as nc
+import neural_network_cross_entropy as nc
 l=rs.get()
 A=nc.nn([28*28,30,10])
-A.THG(l, 20, 1,330)
+#A.THG(l, 20, 1,330)
+A.THG(l,l, 20, 1,330)
 ```
 After 330 epoches, model could classify manual digit(in manual_digit folder) up to 99.9 percent.
 ![illusion_lose](illusion_lose.PNG)
